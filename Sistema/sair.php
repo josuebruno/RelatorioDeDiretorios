@@ -5,8 +5,6 @@ if(!$_SESSION['userdn']) {
   exit();
 }
 
-
-
 if (!empty($_SERVER['HTTP_CLIENT_IP']))   
     {
       $ip_address = $_SERVER['HTTP_CLIENT_IP'];
